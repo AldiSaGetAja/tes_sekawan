@@ -1,14 +1,8 @@
 ###################
-What is CodeIgniter
+What is Web Apk Order Vehicle
 ###################
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+This application is used to manage orders, especially vehicles within a company.
 
 *******************
 Release Information
@@ -29,15 +23,21 @@ guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide
 Server Requirements
 *******************
 
-PHP version 5.6 or newer is recommended.
+PHP version 8.0.12 or newer is recommended.
 
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
+It should work on 8.0 as well, but we strongly advise you NOT to run
 such old versions of PHP, because of potential security and performance
 issues, as well as missing features.
 
 ************
 Installation
 ************
+
+1. Please reconfigure the config.php file in Application/config/config.php base_url
+2. Install database mysql in folder _database
+3. To Login Use this username and password:
+-Pihak Penyetuju = 'aldiskw', 'sekawan'
+-Admin = 'asesor', 'sabilah'
 
 Please see the `installation section <https://codeigniter.com/userguide3/installation/index.html>`_
 of the CodeIgniter User Guide.
@@ -64,7 +64,7 @@ Report security issues to our `Security Panel <mailto:security@codeigniter.com>`
 or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
 
 ***************
-Acknowledgement
+CodeIniter 3.2
 ***************
 
 The CodeIgniter team would like to thank EllisLab, all the
