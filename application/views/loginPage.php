@@ -70,8 +70,8 @@
                 <div class="d-flex flex-center flex-lg-start flex-column">
                     <!--begin::Logo-->
                     <a href="../../demo1/dist/index.html" class="mb-7">
-                        <img alt="Logo" src="<?= base_url('assets/') ?>image/assets_toko/logo_login1_5" />
-                        <!-- <img alt="Logo" src="<?= base_url('assets/') ?>assets/media/logos/custom-3.svg" /> -->
+                        
+                         <img alt="Logo" src="<?= base_url('assets/') ?>assets/media/logos/custom-3.svg" />
                     </a>
                     <!--end::Logo-->
                     <!--begin::Title-->
