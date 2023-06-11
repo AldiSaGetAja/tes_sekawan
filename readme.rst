@@ -36,8 +36,8 @@ Installation
 1. Please reconfigure the config.php file in Application/config/config.php base_url
 2. Install database mysql in folder _database
 3. To Login Use this username and password:
--Pihak Penyetuju = 'aldiskw', 'sekawan'
--Admin = 'asesor', 'sabilah'
+-admin = 'aldiskw', 'sekawan'
+-pihak penyetuju = 'asesor', 'sabilah'
 
 Please see the `installation section <https://codeigniter.com/userguide3/installation/index.html>`_
 of the CodeIgniter User Guide.
